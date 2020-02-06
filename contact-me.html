@@ -9,9 +9,21 @@
         <!--Try putting this in a table, where each line signifies which address part it is,
             in a lighter font-->
         <p>
+            <!--Can also use separate p tags-->
             <br>1811 Summit Street
             <br>Apt 3
             <br>Kansas City, MO 64108
         </p>
+        <hr>
+        <form class="" action="mailto:" method="POST" enctype="text/plain">
+            <label>Name</label>
+            <input type="text" name="yourName" value="Timothy Ervin">
+            <input type="submit" name="send">
+            <br>
+            <label>Email</label>
+            <input type="email" name="yourEmail" value="">
+            <br>
+            <textarea name="yourMessage" rows="10" cols="30">[Enter your message here]</textarea>
+        </form>
     </body>
 </html>
